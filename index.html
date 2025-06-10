@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricoz - Sustainable Agricultural Solutions</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+        .hero-home {
+            background-image: url('images/2.avif'); /* Agritech themed image */
+            background-size: cover;
+            background-position: center;
+        }
+        .section-separator {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: hsl(158, 27%, 92%); /* Emerald 400 */
+            margin: 0 auto 2.5rem auto;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
+            <!-- Logo -->
+            <div class="flex-shrink-0 mb-4 md:mb-0">
+                <a href="#" class="flex items-center">
+                    <img src="images/logo.png" alt="Agricoz Logo" class="h-10 rounded-md">
+                </a>
+            </div>
+            <!-- Navigation Links -->
+            <div class="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-8 text-lg font-medium">
+                <a href="index.html" class="text-emerald-600 font-semibold hover:text-emerald-700 transition duration-300 ease-in-out">Home</a>
+                <a href="aboutus.html" class="text-gray-800 hover:text-emerald-600 transition duration-300 ease-in-out">About Us</a>
+                <a href="our operations.html" class="text-gray-800 hover:text-emerald-600 transition duration-300 ease-in-out">Our Operations</a>
+                <a href="contactus.html" class="text-gray-800 hover:text-emerald-600 transition duration-300 ease-in-out">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-home relative w-full h-[70vh] md:h-[85vh] flex items-center justify-center text-white text-center p-4">
+            <div class="absolute inset-0 bg-gradient-to-br from-green-800 to-green-900 opacity-70"></div>
+            <div class="relative z-10 max-w-5xl mx-auto">
+                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight mb-6 drop-shadow-lg animate-fade-in-down">
+                    Agricoz – Cultivating Innovation, Sustainability & Global Impact 🌱
+                </h1>
+                <p class="text-lg sm:text-xl lg:text-2xl font-light opacity-90 max-w-3xl mx-auto animate-fade-in-down delay-100">
+                    Reshaping the future of agriculture through advanced biotechnology, sustainable farming, and eco-conscious agribusiness practices.
+                </p>
+                <div class="mt-10 space-x-4 animate-fade-in-down delay-200">
+                    <a href="our operations.html" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-xl">
+                        Explore Our Operations
+                    </a>
+                    <a href="contactus.html" class="inline-block border-2 border-white text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-white hover:text-emerald-600 transition duration-300 ease-in-out transform hover:scale-105">
+                        Get in Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Snapshot -->
+        <section id="about" class="bg-gradient-to-br from-green-500 to-emerald-700 text-white px-4 py-16">
+            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 text-lg leading-relaxed">
+                    <h2 class="text-4xl font-bold mb-4">About Us</h2>
+                    <p class="opacity-90">
+                        At **Agricoz**, we are reshaping the future of agriculture through **advanced biotechnology, sustainable farming, and eco-conscious agribusiness practices**. With over **5,400 acres of fertile farmland** in South India, we specialize in large-scale **fruit and vegetable production, high-yield tissue culture plants, and organic bio-manure solutions**.
+                    </p>
+                    <p class="opacity-90">
+                        Our commitment to sustainability extends beyond farming, as we actively work toward **building a forest community-based society**, integrating regenerative agricultural practices to nurture both nature and people.
+                    </p>
+                    <a href="#" class="inline-block bg-white text-emerald-700 font-bold py-2 px-6 rounded-full text-md hover:bg-gray-100 transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                        Read More About Us <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                <div class="relative h-96 w-full rounded-xl shadow-2xl overflow-hidden hidden lg:block">
+                    <img src="images/4.avif" alt="Agricoz Team" class="absolute inset-0 w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-50"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Operations Overview -->
+        <section id="operations" class="container mx-auto px-4 py-16">
+            <h2 class="text-4xl font-bold text-center mb-10">Our Agricultural Operations</h2>
+            <div class="section-separator"></div>
+            <p class="text-center text-lg leading-relaxed max-w-3xl mx-auto text-gray-700 mb-12">
+                Agricoz leverages advanced techniques and ethical practices across four primary operational pillars to deliver superior agricultural produce and sustainable solutions.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Operation 1: Tissue Culture Lab – Advancing Agri-Biotechnology -->
+                <div class="bg-white p-6 rounded-xl shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300">
+                    <i class="feature-icon fas fa-flask"></i>
+                    <h3 class="text-2xl font-semibold mb-2 text-emerald-700">Tissue Culture Lab</h3>
+                    <p class="text-gray-600">Our cutting-edge tissue culture laboratory plays a pivotal role in producing disease-resistant, high-yielding, and climate-adaptive plant varieties.</p>
+                </div>
+                <!-- Operation 2: Large-Scale Fruit & Vegetable Production -->
+                <div class="bg-white p-6 rounded-xl shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300">
+                    <i class="feature-icon fas fa-leaf"></i>
+                    <h3 class="text-2xl font-semibold mb-2 text-emerald-700">Large-Scale Production</h3>
+                    <p class="text-gray-600">With a vast 5,400 acres of farmland in South India, we cultivate a diverse range of high-quality, nutrient-rich fruits and vegetables.</p>
+                </div>
+                <!-- Operation 3: Bio-Organic Manure & Agri-Inputs Production -->
+                <div class="bg-white p-6 rounded-xl shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300">
+                    <i class="feature-icon fas fa-seedling"></i>
+                    <h3 class="text-2xl font-semibold mb-2 text-emerald-700">Bio-Organic Manure</h3>
+                    <p class="text-gray-600">We produce and distribute premium-quality bio-organic manure to enrich soil fertility and enhance crop productivity without harmful chemicals.</p>
+                </div>
+                <!-- Operation 4: Post-Harvest Processing & Agri-Product Distribution -->
+                <div class="bg-white p-6 rounded-xl shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300">
+                    <i class="feature-icon fas fa-boxes"></i>
+                    <h3 class="text-2xl font-semibold mb-2 text-emerald-700">Post-Harvest & Dist.</h3>
+                    <p class="text-gray-600">Our post-harvest processing units ensure that fresh produce is graded, sorted, packed, and processed under stringent quality control.</p>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                    View All Operations <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Why Choose Agricoz? -->
+        <section class="bg-gray-800 text-white px-4 py-16">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-6">Why Choose Agricoz?</h2>
+                <div class="section-separator !bg-white"></div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                    <div class="p-6 bg-gray-700 rounded-xl shadow-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300">
+                        <i class="fas fa-microscope text-4xl text-green-400 mb-3"></i>
+                        <h3 class="text-xl font-semibold mb-2">Scientific Innovation</h3>
+                        <p class="text-gray-300 text-sm">Advanced biotech-driven farming with a tissue culture lab for sustainable plant propagation.</p>
+                    </div>
+                    <div class="p-6 bg-gray-700 rounded-xl shadow-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300">
+                        <i class="fas fa-truck-fast text-4xl text-blue-400 mb-3"></i>
+                        <h3 class="text-xl font-semibold mb-2">Global Export Network</h3>
+                        <p class="text-gray-300 text-sm">Supplying fresh produce and agri-products to leading markets worldwide.</p>
+                    </div>
+                    <div class="p-6 bg-gray-700 rounded-xl shadow-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300">
+                        <i class="fas fa-hand-holding-heart text-4xl text-yellow-400 mb-3"></i>
+                        <h3 class="text-xl font-semibold mb-2">Eco-Friendly & Sustainable</h3>
+                        <p class="text-gray-300 text-sm">Organic farming methods, zero-waste production, and forest community integration.</p>
+                    </div>
+                    <div class="p-6 bg-gray-700 rounded-xl shadow-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300">
+                        <i class="fas fa-certificate text-4xl text-red-400 mb-3"></i>
+                        <h3 class="text-xl font-semibold mb-2">Quality & Transparency</h3>
+                        <p class="text-gray-300 text-sm">Strict quality control measures ensure that every product meets global food safety standards.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Building a Forest Community-Based Society -->
+        <section class="container mx-auto px-4 py-16">
+            <h2 class="text-4xl font-bold text-center mb-10">Building a Forest Community-Based Society 🌳</h2>
+            <div class="section-separator"></div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="relative h-80 w-full rounded-xl shadow-2xl overflow-hidden">
+                    <img src="images/5.avif" alt="Forest Community" class="absolute inset-0 w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-50"></div>
+                </div>
+                <div class="space-y-6 text-lg leading-relaxed">
+                    <p class="text-gray-700">
+                        At **Agricoz**, we believe in creating a **harmonious ecosystem where agriculture, forestry, and community welfare coexist**. Our **forest community development initiative** focuses on:
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-600">
+                        <li>**Reforestation & Afforestation** – Planting trees and restoring green cover for ecological balance.</li>
+                        <li>**Agri-Community Development** – Empowering local farmers with training, resources, and technology.</li>
+                        <li>**Sustainable Living** – Promoting agroforestry, renewable energy, and eco-conscious lifestyles.</li>
+                    </ul>
+                    <p class="text-gray-700">
+                        Through these initiatives, we aim to **build a self-sustaining green economy** that supports both people and the planet.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Commitment to Sustainability & Ethical Farming (Full Section) -->
+        <section class="bg-gray-100 px-4 py-16 text-center">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-6">Our Commitment to Sustainability & Ethical Farming</h2>
+                <div class="section-separator"></div>
+                <p class="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
+                    At **Agricoz**, we uphold **organic, sustainable, and regenerative agriculture** as core principles. We are dedicated to:
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                    <div class="p-6 bg-white rounded-xl shadow-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300">
+                        <i class="fas fa-recycle text-4xl text-green-600 mb-3"></i>
+                        <h3 class="text-xl font-semibold mb-2">Zero Waste Farming</h3>
+                        <p class="text-gray-600 text-sm">Recycling organic matter back into the soil, minimizing environmental impact.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-xl shadow-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300">
+                        <i class="fas fa-flask-vial text-4xl text-red-600 mb-3"></i>
+                        <h3 class="text-xl font-semibold mb-2">Chemical-Free Cultivation</h3>
+                        <p class="text-gray-600 text-sm">Strictly avoiding synthetic pesticides and fertilizers for natural growth.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-xl shadow-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300">
+                        <i class="fas fa-water text-4xl text-blue-600 mb-3"></i>
+                        <h3 class="text-xl font-semibold mb-2">Water Conservation</h3>
+                        <p class="text-gray-600 text-sm">Implementing efficient drip irrigation and rainwater harvesting techniques.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-xl shadow-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300">
+                        <i class="fas fa-people-carry-box text-4xl text-yellow-600 mb-3"></i>
+                        <h3 class="text-xl font-semibold mb-2">Empowering Farmers</h3>
+                        <p class="text-gray-600 text-sm">Supporting rural communities with training, resources, and fair trade practices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Call to Action / Contact Snippet -->
+        <section id="contact" class="bg-emerald-700 text-white px-4 py-16 text-center">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-6">Partner with Us – Let’s Grow a Greener Future!</h2>
+                <p class="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
+                    We welcome **distributors, retailers, agribusiness partners, and sustainability advocates** to join us in our journey to revolutionize agriculture and create a **healthier, greener world**.
+                </p>
+                <a href="#" class="inline-block bg-white text-emerald-700 font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-100 transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                    Contact Us Today! <i class="fas fa-envelope ml-2"></i>
+                </a>
+                <p class="text-2xl font-bold mt-10">🌿 Agricoz – Innovation, Sustainability, and Growth in Every Harvest!</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-center md:text-left mb-4 md:mb-0">
+                <p>&copy; 2025 Agricoz. All rights reserved.</p>
+            </div>
+            <div class="flex space-x-6 text-2xl">
+                <a href="#" class="hover:text-emerald-400 transition-colors duration-300"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-emerald-400 transition-colors duration-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-emerald-400 transition-colors duration-300"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="hover:text-emerald-400 transition-colors duration-300"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
